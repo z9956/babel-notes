@@ -1,0 +1,17 @@
+{
+  "name": "babel-notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:z9956/babel-notes.git",
+  "author": "z9956 <zhz995617@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/generator": "^7.17.3",
+    "@babel/parser": "^7.17.3",
+    "@babel/template": "^7.16.7",
+    "@babel/traverse": "^7.17.3",
+    "@babel/types": "^7.17.0"
+  }
+}
