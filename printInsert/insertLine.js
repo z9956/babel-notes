@@ -16,7 +16,9 @@ module.exports = function ({ types, template }) {
 					const { line, column } = path.node.loc.start;
 
 					const newNode = template.expression(
-						`console.log("line: ${line}, column: ${column}")`,
+						`console.log("${
+							state.filename || 'unknown filename'
+						}: ${line}, ${column}")`,
 					)();
 					newNode.isNew = true;
 
